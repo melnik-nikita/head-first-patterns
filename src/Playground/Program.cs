@@ -1,5 +1,4 @@
-﻿using System;
-using Observer;
+﻿using Decorator;
 
 namespace Playground
 {
@@ -7,8 +6,7 @@ namespace Playground
     {
         static void Main(string[] args)
         {
-            WeatherStation station = new WeatherStation();
-            station.Main();
+            StarbuzzCoffee.MakeSomeCoffee();
         }
     }
 }
