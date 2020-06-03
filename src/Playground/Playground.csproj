@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Fabric\Fabric.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
