@@ -1,29 +1,26 @@
 using System;
 using System.Collections.Generic;
+using Fabric.Models.Ingredients;
 
 namespace Fabric.Models
 {
     public abstract class Pizza
     {
-        protected string name;
-        protected string dough;
-        protected string sauce;
-        protected IList<string> toppings = new List<string>();
+        public string Name { get; set; }
+        // protected string name;
+        protected Dough dough;
+        protected Sauce sauce;
+        protected Veggies[] veggies;
+        protected Cheese cheese;
+        protected Pepperoni pepperoni;
+        protected Clams clams;
 
-        public string Name { get => name; }
-
-        public virtual void Prepare()
+        public override string ToString()
         {
-            Console.WriteLine($"Preparing {name}");
-            Console.WriteLine("Tossing dough...");
-            Console.WriteLine("Adding sauce...");
-            Console.WriteLine("Adding toppings: ");
-
-            foreach (string topping in toppings)
-            {
-                Console.WriteLine($"    {topping}");
-            }
+            return "Pizza description";
         }
+
+        public abstract void Prepare();
 
         public virtual void Bake()
         {
@@ -39,7 +36,5 @@ namespace Fabric.Models
         {
             Console.WriteLine("Place pizza in official PizzaStore box");
         }
-
-
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using Fabric.Models;
+using Fabric.Stores;
 
 namespace Fabric
 {
