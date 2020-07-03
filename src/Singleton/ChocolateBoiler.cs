@@ -10,7 +10,6 @@ namespace Singleton
 
         private static ChocolateBoiler instance = null;
 
-        public string Test {get;} => "string";
         public static ChocolateBoiler Instance {
             get
             {

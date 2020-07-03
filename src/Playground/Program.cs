@@ -1,5 +1,4 @@
-﻿using Decorator;
-using Fabric;
+﻿using Command;
 
 namespace Playground
 {
@@ -8,7 +7,10 @@ namespace Playground
         static void Main(string[] args)
         {
             // StarbuzzCoffee.MakeSomeCoffee();
-            PizzaTestDrive.CreatePizzaTestDrive();
+            // PizzaTestDrive.CreatePizzaTestDrive();
+
+            // RemoteControlTest.Run();
+            RemoteLoader.Load();
         }
     }
 }

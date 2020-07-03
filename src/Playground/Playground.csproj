@@ -4,6 +4,7 @@
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Fabric\Fabric.csproj" />
+    <ProjectReference Include="..\Command\Command.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
