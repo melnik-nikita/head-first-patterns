@@ -1,5 +1,5 @@
 ﻿using System;
-using Adapter;
+using Facade;
 
 namespace Playground
 {
@@ -12,8 +12,9 @@ namespace Playground
 
             // RemoteControlTest.Run();
             // RemoteLoader.Load();
-            DuckTestDrive.Test();
+            // DuckTestDrive.Test();
 
+            HomeTheaterTestDrive.Test();
             Console.ReadLine();
         }
     }

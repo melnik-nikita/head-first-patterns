@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Adapter\Adapter.csproj" />
+    <ProjectReference Include="..\Facade\Facade.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Fabric\Fabric.csproj" />
