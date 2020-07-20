@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{104CC627-6075-4004-AB85-9A4314B2152F}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+	.gitignore = .gitignore
+	global.json = global.json
+EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "src\Strategy\Strategy.csproj", "{AEBD17A4-E122-46E4-8583-A8EEB149F2CD}"
@@ -18,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{656A2976-9CD8-4360-B814-2C8091A24A98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "src\Command\Command.csproj", "{A14A23DD-0A43-4CD5-B149-724D7BFBDFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "src\Adapter\Adapter.csproj", "{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +125,18 @@ Global
 		{A14A23DD-0A43-4CD5-B149-724D7BFBDFD6}.Release|x64.Build.0 = Release|Any CPU
 		{A14A23DD-0A43-4CD5-B149-724D7BFBDFD6}.Release|x86.ActiveCfg = Release|Any CPU
 		{A14A23DD-0A43-4CD5-B149-724D7BFBDFD6}.Release|x86.Build.0 = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|x64.Build.0 = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Debug|x86.Build.0 = Debug|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|x64.ActiveCfg = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|x64.Build.0 = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|x86.ActiveCfg = Release|Any CPU
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AEBD17A4-E122-46E4-8583-A8EEB149F2CD} = {C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}
@@ -125,5 +146,6 @@ Global
 		{2293DB80-9D98-4FFA-80C7-907DA82A3372} = {C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}
 		{656A2976-9CD8-4360-B814-2C8091A24A98} = {C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}
 		{A14A23DD-0A43-4CD5-B149-724D7BFBDFD6} = {C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}
+		{09332AF3-1F86-4090-B9FE-1B5FFBE35D68} = {C21F1960-8F16-4AB0-8162-8CB8FE7F41C9}
 	EndGlobalSection
 EndGlobal

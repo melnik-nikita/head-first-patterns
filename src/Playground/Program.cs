@@ -1,16 +1,20 @@
-﻿using Command;
+﻿using System;
+using Adapter;
 
 namespace Playground
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // StarbuzzCoffee.MakeSomeCoffee();
             // PizzaTestDrive.CreatePizzaTestDrive();
 
             // RemoteControlTest.Run();
-            RemoteLoader.Load();
+            // RemoteLoader.Load();
+            DuckTestDrive.Test();
+
+            Console.ReadLine();
         }
     }
 }
