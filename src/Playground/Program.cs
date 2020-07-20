@@ -1,5 +1,5 @@
 ﻿using System;
-using Facade;
+using TemplateMethod;
 
 namespace Playground
 {
@@ -14,7 +14,9 @@ namespace Playground
             // RemoteLoader.Load();
             // DuckTestDrive.Test();
 
-            HomeTheaterTestDrive.Test();
+            // HomeTheaterTestDrive.Test();
+
+            BeverageTestDrive.Test();
             Console.ReadLine();
         }
     }
