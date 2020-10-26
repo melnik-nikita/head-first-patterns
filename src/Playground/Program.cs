@@ -1,5 +1,4 @@
 ﻿using System;
-using TemplateMethod;
 
 namespace Playground
 {
@@ -9,14 +8,16 @@ namespace Playground
         {
             // StarbuzzCoffee.MakeSomeCoffee();
             // PizzaTestDrive.CreatePizzaTestDrive();
-
             // RemoteControlTest.Run();
             // RemoteLoader.Load();
             // DuckTestDrive.Test();
-
             // HomeTheaterTestDrive.Test();
+            // BeverageTestDrive.Test();
 
-            BeverageTestDrive.Test();
+            decimal d = 3.45m;
+
+            Console.WriteLine(Math.Round(d));
+
             Console.ReadLine();
         }
     }
