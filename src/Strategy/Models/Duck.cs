@@ -27,12 +27,12 @@ namespace Strategy.Models
             flyBehavior.Fly();
         }
 
-        public void setFlyBehavior(IFlyBehavior fb)
+        public void SetFlyBehavior(IFlyBehavior fb)
         {
             flyBehavior = fb;
         }
 
-        public void setQuackBehavior(IQuackBehavior qb)
+        public void SetQuackBehavior(IQuackBehavior qb)
         {
             quackBehavior = qb;
         }

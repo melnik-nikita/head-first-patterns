@@ -1,4 +1,3 @@
-using System;
 using Strategy.Models;
 using Strategy.Models.FlyBehavior;
 
@@ -29,7 +28,7 @@ namespace Strategy
 
             Duck model = new ModelDuck();
             model.PerformFly();
-            model.setFlyBehavior(new FlyRocketPowered());
+            model.SetFlyBehavior(new FlyRocketPowered());
             model.PerformFly();
         }
     }
